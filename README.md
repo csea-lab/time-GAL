@@ -22,6 +22,7 @@ Taking time as classifier input, this procedur allow us to inspect the GAL dispo
 ## Live example
 
 A live script example can be found in the toolbox explaining how the toolbox works (``` ExampleDecodingTimedGALscript.m ```). Also, a PDF copy of the procedure can be consulted (``` ExampleDecodingTimedGALscript.pdf ```). 
+<br><br>
 Data used for the example and results MATLAB objects can be found in <b> https://osf.io/q56ns </b>.
 
 <b><br>
