@@ -25,6 +25,13 @@ A live script example can be found in the toolbox explaining how the toolbox wor
 <br><br>
 Data used for the example and results MATLAB objects can be found in <b> https://osf.io/q56ns </b>.
 
+Preprint: <br>
+https://www.biorxiv.org/content/10.1101/2024.06.19.599699v2
+
+Contact: <br>
+asantosmayo@ufl.edu 
+
+
 <b><br>
 
 > #### Laboratory for Brain, Body, and Behavior
