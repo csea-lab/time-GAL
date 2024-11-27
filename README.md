@@ -21,9 +21,9 @@ Taking time as classifier input, this procedur allow us to inspect the GAL dispo
 
 ## Live example
 
-A live script example can be found in the toolbox explaining how the toolbox works (``` ExampleDecodingTimedGALscript.m ```). Also, a PDF copy of the procedure can be consulted (``` ExampleDecodingTimedGALscript.pdf ```). 
+Two live script example can be found in the toolbox explaining how the toolbox works with the manuscript examples (``` Analysis_Dataset1_ERP and  Analysis_Dataset2_ssVEP ```). Also, a PDF copy of the procedure can be consulted for each analysis. 
 <br><br>
-Data used for the example and results MATLAB objects can be found in <b> https://osf.io/q56ns </b>.
+Data used for the examples and results MATLAB objects can be found in <b> https://osf.io/q56ns </b>.
 
 Preprint: <br>
 https://www.biorxiv.org/content/10.1101/2024.06.19.599699v2
