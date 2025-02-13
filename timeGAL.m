@@ -298,7 +298,7 @@ function [timeGALoutput] = timeGAL(condition1, condition2, trialsCondition1, tri
     end
     
 
-%%  4. Combining spatial and temporal information
+%%  5. Combining spatial and temporal information
     
     fprintf('\n 5. Calculating statistics and output data. \n');
     
@@ -318,7 +318,7 @@ function [timeGALoutput] = timeGAL(condition1, condition2, trialsCondition1, tri
     maskTime = correlationP < alphaCorrelation;
     %%indcs = find(sum(maskGAL)>=1);
     [row, col] = find(maskGAL);
-    TimeGAL = zeros(125,125,size(maskTime,2));
+    TimeGAL = zeros(length(channels),length(channels),size(maskTime,2));
     for i = 1:length(row)
         TimeGAL(row(i),col(i), maskTime(row(i),:) == 1) = 1;
     end
@@ -326,7 +326,7 @@ function [timeGALoutput] = timeGAL(condition1, condition2, trialsCondition1, tri
 
     
     
-%%  5. Finalize
+%%  6. Finalize
     
     fprintf('\n 6. Finishing function. \n');
 
