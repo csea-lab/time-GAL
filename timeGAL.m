@@ -306,7 +306,7 @@ function [timeGALoutput] = timeGAL(condition1, condition2, trialsCondition1, tri
     chanceLevel = 0.5;
     
     % T-Test contrast against chance Level (0.5)
-    alpha_corrected = alphaGAL/125; % Bonferroni correction.
+    alpha_corrected = alphaGAL/length(channels); % Bonferroni correction.
     [~,p] = ttest(generalizationConnectivityMatrices(:,channels,channels), chanceLevel, 'tail', 'right');
     maskpos = squeeze(p < alpha_corrected);
     [~,p] = ttest(generalizationConnectivityMatrices(:,channels,channels), chanceLevel, 'tail', 'left');
