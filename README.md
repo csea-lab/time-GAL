@@ -25,8 +25,8 @@ Two live script example can be found in the toolbox explaining how the toolbox w
 <br><br>
 Data used for the examples and results MATLAB objects can be found in <b> https://osf.io/q56ns </b>.
 
-Preprint: <br>
-https://www.biorxiv.org/content/10.1101/2024.06.19.599699v2
+Toolbox article - Human Brain Mapping journal: <br>
+https://onlinelibrary.wiley.com/doi/10.1002/hbm.70152
 
 Contact: <br>
 asantosmayo@ufl.edu 
